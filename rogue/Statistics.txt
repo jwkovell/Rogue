@@ -1,0 +1,151 @@
+==== ROUND 1 ====
+Player settings:
+cautious = 1;
+clever = 1;
+evil = 1;
+greedy = 1;
+
+pileOnBonus = 0;
+fullCourtBonus = 0;
+smartJestBonus = 0;
+
+discardPenalty = 0;
+impatientPlayPenalty = 0;
+jestMinimumBenefit = 0;
+pileOnMaximumCost = 0;
+
+Adam
+Wins: 30
+Total Stacks: 190
+Full Courts: 0
+Total Score: 1239
+ 
+Brian
+Wins: 33
+Total Stacks: 222
+Full Courts: 0
+Total Score: 1293
+ 
+Cassie
+Wins: 13
+Total Stacks: 124
+Full Courts: 0
+Total Score: 781
+ 
+Dominic
+Wins: 24
+Total Stacks: 165
+Full Courts: 0
+Total Score: 1018
+
+
+==== ROUND 2 ====
+Adam settings:
+cautious = 2;
+
+Adam
+Wins: 40
+Total Stacks: 213
+Full Courts: 0
+Total Score: 1420
+ 
+Brian
+Wins: 29
+Total Stacks: 203
+Full Courts: 0
+Total Score: 1092
+ 
+Cassie
+Wins: 11
+Total Stacks: 99
+Full Courts: 0
+Total Score: 668
+ 
+Dominic
+Wins: 16
+Total Stacks: 141
+Full Courts: 0
+Total Score: 907
+
+
+==== ROUND 3 ====
+Adam settings:
+greedy = 2;
+
+Adam
+Wins: 26
+Total Stacks: 174
+Full Courts: 0
+Total Score: 1136
+ 
+Brian
+Wins: 32
+Total Stacks: 206
+Full Courts: 0
+Total Score: 1228
+ 
+Cassie
+Wins: 16
+Total Stacks: 135
+Full Courts: 0
+Total Score: 909
+ 
+Dominic
+Wins: 25
+Total Stacks: 175
+Full Courts: 0
+Total Score: 1088
+
+
+==== ROUND 4 ====
+Adam settings:
+evil = 2;
+
+Adam
+Wins: 28
+Total Stacks: 200
+Full Courts: 0
+Total Score: 1191
+ 
+Brian
+Wins: 34
+Total Stacks: 223
+Full Courts: 0
+Total Score: 1322
+ 
+Cassie
+Wins: 15
+Total Stacks: 130
+Full Courts: 0
+Total Score: 873
+ 
+Dominic
+Wins: 23
+Total Stacks: 173
+Full Courts: 0
+Total Score: 1002
+
+
+
+
+
+
+
+
+
+
+==== ROUND 10 ====
+Player settings:
+cautious = 1;
+clever = 1;
+evil = 1;
+greedy = 1;
+
+pileOnBonus = 5;
+fullCourtBonus = 200;
+smartJestBonus = 0;
+
+discardPenalty = 0;
+impatientPlayPenalty = 50;
+jestMinimumBenefit = 15;
+pileOnMaximumCost = 10;

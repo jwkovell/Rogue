@@ -1,0 +1,8 @@
+#current-player {
+	position: fixed;
+	bottom: 0px;
+}
+
+#current-player .card {
+	cursor: pointer;
+}

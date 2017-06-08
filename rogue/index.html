@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>OOP</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="js/jquery/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery/jquery.svg.js"></script>
+	<script src="js/jquery/jquery.svganim.js"></script>
+
+	<script src="js/game.js"></script>
+	<script src="js/set.js"></script>
+	<script src="js/deck.js"></script>
+	<script src="js/hand.js"></script>
+	<script src="js/stack.js"></script>
+	<script src="js/card.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/computer.js"></script>
+	<script src="js/turn.js"></script>
+	<script src="js/move.js"></script>
+
+	<script src="js/display.js"></script>
+  <script src="js/listeners.js"></script>
+
+	<script src="js/script.js"></script>
+	<script src="js/statistics.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/stage.css">
+	<link rel="stylesheet" type="text/css" href="css/hand.css">
+	<link rel="stylesheet" type="text/css" href="css/card.css">
+	
+</head>
+<body>
+
+<svg id="stage" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 600 5000">
+  <filter id="drop-shadow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+  </filter>
+</svg>
+
+<svg id="current-player" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 600 300">
+</svg>
+
+
+
+<!--
+
+  <g id="player-0" class="player" transform="translate(0, 0)">
+
+    <g class="photo" transform="translate(0, 0)">
+      <rect width="200" height="200" x="0" y="0" fill="#ffffff"></rect>
+      <rect width="180" height="180" x="10" y="10" fill="#000000" opacity=".02"></rect>
+    </g>
+
+    <g class="crowns" transform="translate(10, 160)">
+
+      <rect width="180" height="30" x="0" y="0" fill="#000000" opacity=".01"></rect>
+
+      <rect width="20" height="20" x="5" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="30" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="55" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="80" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="105" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="130" y="5" fill="#ffffff"></rect>
+      <rect width="20" height="20" x="155" y="5" fill="#ffffff"></rect>
+
+    </g>
+
+    <g class="stats" transform="translate(0, 200)">
+      <rect width="200" height="100" x="0" y="0" fill="#000000" opacity=".03"></rect>
+      <g class="mini-cards" transform="translate(15, 15)">
+        <rect width="50" height="75" x="0" y="0" fill="#ffffff" stroke="#f9f9f9"></rect>
+        <rect width="50" height="75" x="30" y="0" fill="#ffffff" stroke="#f9f9f9"></rect>
+        <rect width="50" height="75" x="60" y="0" fill="#ffffff" stroke="#f9f9f9"></rect>
+        <rect width="50" height="75" x="90" y="0" fill="#ffffff" stroke="#f9f9f9"></rect>
+        <rect width="50" height="75" x="120" y="0" fill="#ffffff" stroke="#f9f9f9"></rect>
+      </g>
+    </g>
+
+    <g class="stack-1" transform="translate(200, 0)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity="0"></rect>
+    </g>
+
+    <g class="stack-2" transform="translate(300, 0)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity=".02"></rect>
+    </g>
+
+    <g class="stack-3" transform="translate(400, 0)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity="0"></rect>
+    </g>
+
+    <g class="stack-4" transform="translate(500, 0)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity=".02"></rect>
+    </g>
+
+    <g class="stack-5" transform="translate(200, 150)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity=".02"></rect>
+    </g>
+
+    <g class="stack-6" transform="translate(300, 150)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity="0"></rect>
+    </g>
+
+    <g class="stack-7" transform="translate(400, 150)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity=".02"></rect>
+    </g>
+
+    <g class="stack-8" transform="translate(500, 150)">
+      <rect width="100" height="150" x="0" y="0" fill="#000000" opacity="0"></rect>
+    </g>
+
+  </g>
+
+-->
+
+</body>
+</html>
